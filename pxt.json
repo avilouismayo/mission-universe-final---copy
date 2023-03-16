@@ -1,0 +1,38 @@
+{
+    "name": "Mission: Universe Final - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "animation": "*",
+        "darts": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "color": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
